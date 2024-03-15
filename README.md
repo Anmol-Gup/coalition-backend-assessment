@@ -1,4 +1,4 @@
-# Coalition Backend Assessment
+# Coalition Backend Developer Assessment
 
 Create a webpage with a form that has the following text input fields: Product name, Quantity in stock, Price per item.
 - The submitted data of the form should be saved in an XML / JSON file with valid XML / JSON syntax.
