@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.table {
+    border-radius: 5px; /* Adjust the value as needed */
+    overflow: hidden; /* Ensure the corners are rounded */
+}
+
+.table th,.table td{
+    text-transform: capitalize;
+    padding: 0.7rem;
+}
+.table thead{
+    background-color: #6c7ae0;
+    color: #fff;
+}
+td{
+    color: #808080;
+}
+.table tr:nth-of-type(2n){
+    background-color: #eaf8e6;
+}
+.no-products{
+    display: none;
+}
+.edit:hover{
+    cursor: pointer;
+}
